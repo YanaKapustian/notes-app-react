@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react"
-import uniqid from 'uniqid';
 import { useDispatch } from 'react-redux'
-import { addNote, editNote } from "../redux/NotesSlice";
+import { editNote } from "../redux/NotesSlice";
 import { useNavigate, useParams } from "react-router-dom";
 import { useSelector } from 'react-redux'
 
