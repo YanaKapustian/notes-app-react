@@ -50,9 +50,9 @@ const Note: React.FC<Props> = ({id, title, category, content, date, dates}) => {
             <span className="note__dates">{dates && dates.map(date => date + ' ')}</span>
          </div>
          <div className="note__actions">
-            <div className="note__icon" id={`${id}_edit`} onClick={handleEdit}><img src="img/pencil.png" alt="edit"></img></div>
-            <div className="note__icon" id={`${id}_archive`} onClick={handleArchive}><img src="img/download-button.png" alt="archive"></img></div>
-            <div className="note__icon" id={`${id}_delete`} onClick={handleDelete}><img src="img/garbage.png" alt="delete"></img></div>
+            <div className="note__icon" id={`${id}_edit`} onClick={handleEdit}><img src="https://i.ibb.co/nsLCy8Z/pencil.png" alt="edit"></img></div>
+            <div className="note__icon" id={`${id}_archive`} onClick={handleArchive}><img src="https://i.ibb.co/9hhtybQ/download-button.png" alt="archive"></img></div>
+            <div className="note__icon" id={`${id}_delete`} onClick={handleDelete}><img src="https://i.ibb.co/x5LYfH7/garbage.png" alt="delete"></img></div>
          </div>
       </div>
    )
